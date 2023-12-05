@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sample Page</title>
+    {% load static %}
+  </head>
+  <body>
+    <!-- header  -->
+    <header>
+      <h3 id="header-heading"></h3>
+    </header>
+
+    <!-- section  -->
+    <section>
+      <button id="section-button">Press Me</button>
+    </section>
+
+    <!-- footer  -->
+
+    <script src="{% static 'build/index.js' %}"></script>
+  </body>
+</html>
